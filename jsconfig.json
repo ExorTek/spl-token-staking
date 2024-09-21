@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@components": [
+        "./src/components/index"
+      ],
+      "@providers": [
+        "./src/providers/index"
+      ],
+      "@lib": [
+        "./src/lib/index"
+      ],
+      "@hooks": [
+        "./src/hooks/index"
+      ],
+      "@helpers": [
+        "./src/helpers/index"
+      ]
+    },
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}
