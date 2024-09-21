@@ -1,5 +1,6 @@
 {
   "name": "spl-token-staking",
+  "description": "A simple example spl-token-staking app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,13 +11,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mithraic-labs/token-staking": "^1.1.7",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.4.8",
     "@solana/wallet-adapter-base": "^0.9.23",
     "@solana/wallet-adapter-react": "^0.15.35",
     "@solana/wallet-adapter-react-ui": "^0.9.35",
     "@solana/wallet-adapter-wallets": "^0.19.32",
     "@solana/web3.js": "^1.91.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-toastify": "^10.0.5",
+    "vite-plugin-node-polyfills": "^0.22.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react-swc": "^3.5.0",
