@@ -1,10 +1,5 @@
 # SPL Token Staking
 
-Built in collaboration with
-
-- <font size="5">[PsyFi](https://www.psyfi.io/)</font> <font size="3">- Option primitives and structured products</font>
-- <font size="5">[Armada](https://armadafi.so)</font> <font size="3"> - Democratizing non-custodial institutional market making and improving on-chain liquidity</font>
-
 ## Program Architecture
 
 Working document for the architecture of a SPL Token Staking program that tokenizes the stake for use in SPL Governance.
